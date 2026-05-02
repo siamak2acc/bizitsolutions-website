@@ -95,6 +95,14 @@ a {
   font-size: 1.1rem;
 }
 
+.brand-logo {
+  display: block;
+  width: auto;
+  height: 44px;
+  max-width: 190px;
+  object-fit: contain;
+}
+
 .header-nav {
   display: flex;
   align-items: center;
@@ -362,6 +370,11 @@ h3 {
 
   h1 {
     font-size: 2.35rem;
+  }
+
+  .brand-logo {
+    height: 36px;
+    max-width: 160px;
   }
 
   .service-grid {
